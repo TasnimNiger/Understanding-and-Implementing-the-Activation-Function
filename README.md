@@ -231,7 +231,7 @@ The parameterized ReLU function is used when the leaky ReLU function fails to so
 **Graph:**
 
 
-![image](https://github.com/TasnimNiger/Deep-Learning-Resources/assets/85071596/2a95d39a-ed13-475c-8822-37f7ef7e1f36)
+<img src="https://github.com/TasnimNiger/Deep-Learning-Resources/assets/85071596/2a95d39a-ed13-475c-8822-37f7ef7e1f36" width=300, hight=300>
 
 **Code Snippet:**
 
@@ -250,7 +250,7 @@ It is used for CNN, NLP, and Pattern Recognition models, which require deep neur
 
 ##  **g) Softmax Activation Functions**
 
-**Equation:** ![image](https://github.com/TasnimNiger/Deep-Learning-Resources/assets/85071596/36f225d6-5309-497e-9e0e-5acb9b567269)
+**Equation:** <img src="https://github.com/TasnimNiger/Deep-Learning-Resources/assets/85071596/36f225d6-5309-497e-9e0e-5acb9b567269" hight=100, width=200>
 
 **Function Input Range :** (- ∞,∞)
 
@@ -311,7 +311,7 @@ It takes all real values as input. For positive values, the output is 1; for eve
 **Graph:**
 
 
-![image](https://github.com/TasnimNiger/Deep-Learning-Resources/assets/85071596/c438866a-9791-4984-9c97-6034bc836ae0)
+<img src="https://github.com/TasnimNiger/Deep-Learning-Resources/assets/85071596/c438866a-9791-4984-9c97-6034bc836ae0" width=400, hight=400>
 
 **Key features:**
 
@@ -358,7 +358,7 @@ Zero-centering is the most common data pre-processing technique that involves su
 *  **Better weight initialization:** Zero-centered activation functions can work well with certain weight initialization methods, such as the Xavier or He initialization, leading to faster convergence and better performance.
 
 ## **Quick Summary of different activation functions**
-<img src= "https://github.com/TasnimNiger/Deep-Learning-Resources/assets/85071596/978a0327-28c9-4afa-817f-365e918c6a59" width="1200" height="600" align="center">
+<img src= "https://github.com/TasnimNiger/Deep-Learning-Resources/assets/85071596/978a0327-28c9-4afa-817f-365e918c6a59" width="1500" height="600" align="center">
 
 ## **References:**
 1. [Activation functions in Neural Networks](https://medium.com/@datta.nagraj/activation-functions-in-neural-networks-6ffe7b723420)
