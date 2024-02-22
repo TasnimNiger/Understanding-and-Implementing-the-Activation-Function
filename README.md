@@ -59,7 +59,7 @@ The linear activation function is preferred at the output layer when it can not 
 
 ## 2. **Non-Linear Activation Functions**
 
-### **a) Sigmoid Activation Functions**
+## **a) Sigmoid Activation Functions**
 
 ![image](https://github.com/TasnimNiger/Deep-Learning-Resources/assets/85071596/bdfa870d-bbab-480e-b2ee-7d955f464c05)
 
@@ -94,7 +94,7 @@ The linear activation function is preferred at the output layer when it can not 
 *  The sigmoid function must be used in the output layer to build a binary classifier. The output is interpreted as a class label depending on the probability value of input returned by the function.
 *  The sigmoid function is used when we build a multilabel classification model in which each mutually inclusive class has two outcomes. Do not confuse this with a multiclass classification model.
 
-### **b) Tanh Activation Functions**
+## **b) Tanh Activation Functions**
 
 ![image](https://github.com/TasnimNiger/Deep-Learning-Resources/assets/85071596/df470087-bfff-4fba-b6c8-2e0a91fae527)
 
@@ -125,7 +125,7 @@ The linear activation function is preferred at the output layer when it can not 
 *  We do not usually use the tanh function for the hidden layers in MLPs and CNNs. Instead, we use ReLU or Leaky ReLU there.
 *  We never use the tanh function in the output layer.
 
-### **c) ReLU Activation Functions**
+## **c) ReLU Activation Functions**
 
 **Equation: f(Z) = max(0,Z)**
 
@@ -162,7 +162,7 @@ The linear activation function is preferred at the output layer when it can not 
 *  We never use the ReLU function in the output layer.
 
 
-### **d) Leaky Relu**
+## **d) Leaky Relu**
 
 **Equation: f(Z) = max(0.01Z,Z)**
 
@@ -193,7 +193,7 @@ The linear activation function is preferred at the output layer when it can not 
 *  The same usage of the ReLU function is also valid for the leaky ReLU function.
 
 
-###  **e) Parametric ReLU(PReLU)**
+##  **e) Parametric ReLU(PReLU)**
 
 **Equation: f(Z) = max(αZ,Z)**
 
@@ -220,7 +220,7 @@ The linear activation function is preferred at the output layer when it can not 
 
 The parameterized ReLU function is used when the leaky ReLU function fails to solve the problem of dead neurons and the relevant information is not successfully passed to the next layer.
   
-###  **f)Exponential Linear Unit(ELU)**
+##  **f) Exponential Linear Unit(ELU)**
 
 ![image](https://github.com/TasnimNiger/Deep-Learning-Resources/assets/85071596/489e243a-753d-416a-b574-208ee40e01ed)
 
@@ -248,7 +248,7 @@ The parameterized ReLU function is used when the leaky ReLU function fails to so
 
 It is used for CNN, NLP, and Pattern Recognition models, which require deep neural networks.
 
-###  **g) Softmax Activation Functions**
+##  **g) Softmax Activation Functions**
 
 **Equation:** ![image](https://github.com/TasnimNiger/Deep-Learning-Resources/assets/85071596/36f225d6-5309-497e-9e0e-5acb9b567269)
 
@@ -275,7 +275,7 @@ It is used for CNN, NLP, and Pattern Recognition models, which require deep neur
 
 We must use the softmax function in the output layer of a multiclass classification problem.
 
-## **h)Binary Step Function**
+## **h) Binary Step Function**
 
 **Equation:** f(x)  = 1, x>=0
                     = 0, x<0
@@ -302,7 +302,7 @@ It takes all real values as input. For positive values, the output is 1; for eve
 *  The binary step function can be used as an activation function while creating a binary classifier.
 *  This function will not be useful when multiple classes are in the target variable.          
 
-### **i)  Softplus:**
+## **i) Softplus:**
 
 **Equation:**: f(x) = ln(1+exp x)
 
